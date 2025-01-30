@@ -44,12 +44,12 @@ CREATE TABLE `books` (
 --
 
 INSERT INTO `books` (`book_id`, `user_id`, `genre`, `title`, `author`, `publisher`, `edition`, `isbn`, `pages`, `date_issued`) VALUES
-(1, 5, 'Horror', 'Zombie Day', 'Kazi Nazrul Islam', 'Nazrul Publications', 3, 'jfklsgsdlg5qw7q87w', 800, '2018-07-10'),
-(3, 4, 'Adventure', 'A Song of Ice & Fire', 'George R. R. Martin', 'Game of Thrones', 8, 'has23dadh123427', 1200, '2018-07-11'),
-(4, 5, 'Adventure', 'Harry Potter & The Half Blood Prince', 'J.K Rowling', 'Rowling''s Publications', 1, '31ghf1jk24kjb3l4l1gjh', 667, '2018-07-10'),
-(5, 2, 'Adventure', 'Harry Potter & The Deadly Hallows', 'J.K Rowling', 'Rowling''s Publications', 2, 'agsh32gqkj12bkl134', 798, '2018-07-10'),
-(7, 0, 'Mystery', 'The Mysterious Affair at Styles', 'Agatha Christie', 'Agatha Publications', 2, '4zgdhdv2dfh81v31sdgj', 669, '0000-00-00'),
-(10, 0, 'Modern Literature', 'In Search of Lost Time', 'Marcel Proust', 'NY Publishers', 8, '2j3nsd235habh3dfkj', 4215, '2018-07-11');
+(1, 5, 'Horror', 'Ibyino by’Umuzimu', 'Niyomugabo Jean', 'Inkoranya y’u Rwanda', 3, 'jfklsgsdlg5qw7q87w', 800, '2018-07-10'),
+(3, 4, 'Adventure', 'Indirimbo y’Umuriro n’Amazi', 'Gasana Eric', 'Ibitabo by’Ubukerarugendo', 8, 'has23dadh123427', 1200, '2018-07-11'),
+(4, 5, 'Adventure', 'Harikari na Umuhanga w’Umutima', 'Uwase Marie', 'Ibitabo bya Harikari', 1, '31ghf1jk24kjb3l4l1gjh', 667, '2018-07-10'),
+(5, 2, 'Adventure', 'Harikari n’Ibyaha by’Icyatsi', 'Uwase Marie', 'Ibitabo bya Harikari', 2, 'agsh32gqkj12bkl134', 798, '2018-07-10'),
+(7, 0, 'Mystery', 'Ibyago by’Icyumba cy’Abazungu', 'Mukamana Alice', 'Ibitabo by’Ibyago', 2, '4zgdhdv2dfh81v31sdgj', 669, '0000-00-00'),
+(10, 0, 'Modern Literature', 'Gushaka Igihe Cyahindutse', 'Niyonsenga Patrick', 'Ibitabo by’Ubuhanga', 8, '2j3nsd235habh3dfkj', 4215, '2018-07-11');
 
 -- --------------------------------------------------------
 
@@ -73,9 +73,9 @@ CREATE TABLE `books_request` (
 --
 
 INSERT INTO `books_request` (`request_id`, `user_id`, `genre`, `title`, `author`, `edition`, `isbn`, `date`) VALUES
-(1, 2, 'Mystery', 'Murder on the Orient Express', 'Agatha Christie', 3, '12gf3gj1jhr3jklj1ugjkb', '2018-07-10'),
-(2, 5, 'Mystery', 'The Mysterious Affair at Styles', 'Agatha Christie', 3, '4zgdhdv2dfh81v31sdgj', '2018-07-10'),
-(3, 4, 'Mystery', 'The Mysterious Affair at Styles', 'Agatha Christie', 3, '4zgdhdv2dfh81v31sdgj', '2018-07-10');
+(1, 2, 'Mystery', 'Ibyago ku Gari ya Moshi', 'Mukamana Alice', 3, '12gf3gj1jhr3jklj1ugjkb', '2018-07-10'),
+(2, 5, 'Mystery', 'Ibyago by’Icyumba cy’Abazungu', 'Mukamana Alice', 3, '4zgdhdv2dfh81v31sdgj', '2018-07-10'),
+(3, 4, 'Mystery', 'Ibyago by’Icyumba cy’Abazungu', 'Mukamana Alice', 3, '4zgdhdv2dfh81v31sdgj', '2018-07-10');
 
 -- --------------------------------------------------------
 
@@ -95,28 +95,28 @@ CREATE TABLE `issue_date` (
 --
 
 INSERT INTO `issue_date` (`issue_id`, `book_id`, `user_id`, `date`) VALUES
-(1, 1, 2, '2018-07-10'),
-(2, 5, 2, '2018-07-10'),
-(3, 3, 2, '2018-07-10'),
-(4, 4, 5, '2018-07-10'),
-(5, 1, 2, '2018-07-10'),
-(6, 5, 5, '2018-07-10'),
-(7, 1, 5, '2018-07-10'),
-(8, 4, 5, '2018-07-10'),
-(9, 3, 5, '2018-07-10'),
-(10, 5, 5, '2018-07-10'),
-(11, 3, 5, '2018-07-10'),
-(12, 3, 5, '2018-07-10'),
-(13, 3, 5, '2018-07-10'),
-(14, 3, 5, '2018-07-10'),
-(15, 3, 4, '2018-07-10'),
-(16, 1, 5, '2018-07-10'),
-(17, 3, 5, '2018-07-10'),
-(18, 5, 2, '2018-07-10'),
-(19, 3, 4, '2018-07-11'),
-(20, 7, 4, '2018-07-11'),
-(21, 7, 5, '2018-07-11'),
-(22, 3, 4, '2018-07-11');
+(1, 1, 2, '2024-12-10'),
+(2, 5, 2, '2024-12-10'),
+(3, 3, 2, '2024-12-10'),
+(4, 4, 5, '2024-12-10'),
+(5, 1, 2, '2024-12-10'),
+(6, 5, 5, '2024-12-10'),
+(7, 1, 5, '2024-12-10'),
+(8, 4, 5, '2024-12-10'),
+(9, 3, 5, '2024-12-10'),
+(10, 5, 5, '2024-12-10'),
+(11, 3, 5, '2024-12-10'),
+(12, 3, 5, '2024-12-10'),
+(13, 3, 5, '2024-12-10'),
+(14, 3, 5, '2024-12-10'),
+(15, 3, 4, '2024-12-10'),
+(16, 1, 5, '2024-12-10'),
+(17, 3, 5, '2024-12-10'),
+(18, 5, 2, '2024-12-10'),
+(19, 3, 4, '2024-12-11'),
+(20, 7, 4, '2024-12-11'),
+(21, 7, 5, '2024-12-12'),
+(22, 3, 4, '2024-12-20');
 
 -- --------------------------------------------------------
 
@@ -140,13 +140,13 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `name`, `phone`, `email`, `is_admin`, `password`, `address`, `gender`) VALUES
-(1, 'Abrar', '01711568524', 'a.zshahriar@gmail.com', 1, '1234', 'Mirpur DOHS', 'Male'),
-(2, 'Arefin', '01764431859', 'arefin@gmail.com', 0, 'yellow', 'Mirpur 13', 'Male'),
-(4, 'Rafin', '01924184941', 'rafin.ryan.07@outlook.com', 0, 'horse', 'Mirpur 13, Dhaka', 'Male'),
-(5, 'Shimi', '01723645289', 'shimi@gmail.com', 0, 'abcd', 'Uttara, Sector 13', 'Female'),
-(6, 'Jhuma', '01782963175', 'fjhuma@gmail.com', 0, 'qwerty', 'Banani, Chairman Bari', 'Female'),
-(7, 'Istiak', '01932478293', 'istiakisha69@gmail.com', 0, 'istiak', 'Baily Road', 'Male'),
-(8, 'Fahim Ahmed', '01726972364', 'fahim152@gmail.com', 0, 'fahimma', 'Kallayanpur', 'Male');
+(1, 'Imaniriyo', '07811568524', 'imani@gmail.com', 1, '1234', 'Kigali, Nyarugenge', 'Female'),
+(2, 'Ntwali', '07864431859', 'ntwali@gmail.com', 0, 'yellow', 'Kigali, Gasabo', 'Male'),
+(4, 'Uwase', '07824184941', 'uwase.ryan.07@outlook.com', 0, 'horse', 'Kigali, Kicukiro', 'Female'),
+(5, 'Mugisha', '07823645289', 'mugisha@gmail.com', 0, 'abcd', 'Rubavu, Gisenyi', 'Male'),
+(6, 'Keza', '07882963175', 'keza@gmail.com', 0, 'qwerty', 'Musanze, Kinigi', 'Female'),
+(7, 'Hirwa', '07832478293', 'hirwa@gmail.com', 0, 'hirwa123', 'Nyagatare, Rwimiyaga', 'Male'),
+(8, 'Dushimimana', '07826972364', 'dushimimana@gmail.com', 0, 'dushimimana', 'Huye, Ngoma', 'Male');
 
 --
 -- Indexes for dumped tables
