@@ -2,8 +2,9 @@
 var express = require('express');
 var expressSession = require('express-session');
 var bodyParser = require('body-parser');
+const dotenv=require('dotenv').config();
 var app = express();
-var port = 3000;
+var port = process.env.PORT || 3500;
 
 //common controllers
 var signup = require('./controllers/signup');
